@@ -47,8 +47,8 @@ h3{
     
 }
 
-/* Child Selector para el anchor dentro del tag: h3 */
-h3 > a{
+/* Child Selector para el anchor dentro del tag: <p> */
+p > a{
     font-size: large;
     margin: auto;
     color: #3498db;
