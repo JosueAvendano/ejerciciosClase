@@ -1,0 +1,108 @@
+body{
+    width: auto;
+}
+
+.header-container{
+    padding-left: 50px;
+    background-color: black;
+    height: 420px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    width: auto;
+}
+
+h2{
+    margin-right: 300px;
+}
+
+.p-headerContainer-footer{
+    padding-top: 200px;
+}
+
+.p-headerContainer-footer2{
+    color: dimgray;
+    position: relative;
+    bottom: 35px;
+    padding-left: 585px;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.body-container{
+    width: fit-content;
+    height: fit-content;
+}
+
+.body-container h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.body-container p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: relative; 
+    padding-left: 250px;
+    bottom: 40px;
+}
+
+nav{
+    position: relative;
+    position: relative;
+    padding-left: 500px;
+    bottom: 75px;
+}
+
+nav a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.body-h2{
+    margin-left: 20px;
+    width: 800px;
+    position: relative;
+    font-size: 60px;
+}
+
+/* 
+.body-container-es{
+    width: auto;
+    height: fit-content;
+}
+ */
+.body-container-es nav{
+    position: relative;
+    right: 50px;
+    padding-top: 75px;
+}
+
+.body-container-es h2{
+    color:rgb(231, 100, 49);
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.body-container-es h3{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 115px;
+}
+
+#a-ES{
+    color:rgb(231, 100, 49);
+}
+
+u{
+    text-decoration-color: rgb(231, 100, 49);
+}
+
+.body-container-img img{
+    width: 1500px;
+}
