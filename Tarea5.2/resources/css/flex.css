@@ -1,0 +1,161 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40px;    
+}
+
+.flex-card-container{
+    margin: 20px 1px 20px 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 420px;
+    margin: 0px 20px 40px 40px;
+    box-shadow: 5px 5px 10px -1px rgb(102, 102, 114);
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.card-img img{
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   height: 250px;
+}
+
+.card-title p{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: #323243;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-subtitle p{
+    margin-left: 10px;
+    margin-top: 0px;
+    color: #666672;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-footer{
+    margin-left: 10px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* CSS Especial para el primer card */
+.card-footer .old-price{
+    text-decoration: line-through;
+    color: #666672;
+}
+
+.card-footer .new-price{
+    color: #6E66ED;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+    left: 40px;
+}
+
+.card-footer .rating-card-1{
+    font-size: 15px;
+    color: #666672;
+    position: relative;
+    bottom: 40px;
+}
+
+.card-footer .purchased-card-1{
+    font-size: 15px;
+    color: #666672;
+    position: relative;
+    bottom: 73px;
+    left: 55px;
+}
+
+.card1-footer-button{
+    width: 170px;
+    position: relative;
+    bottom: 110px;
+    left: 240px;
+}
+
+.btn-more-info-1{
+    height: 40px;
+    width: 45px;
+    position: relative;
+    bottom: 15px;
+    color: #666672;
+    border-color: #666672;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+.btn-live-preview-1{
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    bottom: 15px;
+    color: #6E66ED;
+    border-color: #6E66ED;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+/* FIN CSS Especial para el primer card */
+
+.card-footer .price{
+    color: #6E66ED;
+    font-weight: bold;
+}
+
+.rating{
+    font-size: 15px;
+    color: #666672;
+}
+
+.purchased{
+    font-size: 15px;
+    color: #666672;
+    position: relative;
+    bottom: 32px;
+    left: 55px;
+}
+
+.card-footer-button{
+    width: 170px;
+    position: relative;
+    bottom: 100px;
+    left: 225px;
+}
+
+.btn-more-info{
+    height: 40px;
+    width: 45px;
+    position: relative;
+    top: 25px;
+    color: #666672;
+    border-color: #666672;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+.btn-live-preview{
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    top: 25px;
+    color: #6E66ED;
+    border-color: #6E66ED;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+i{
+    color: #666672;
+}
