@@ -11,7 +11,7 @@ h1{
 }
 
 .card{
-    height: 420px;
+    height: 400px;
     margin: 0px 20px 40px 40px;
     box-shadow: 5px 5px 10px -1px rgb(102, 102, 114);
     background-color: #ffff;
@@ -66,37 +66,56 @@ hr{
 
 /* CSS Especial para el primer card */
 .card-footer .old-price{
+    margin: unset;
     text-decoration: line-through;
     color: #666672;
 }
 
 .card-footer .new-price{
+    margin: unset;
+    font-size: 20px;
     color: #6E66ED;
     font-weight: bold;
     position: relative;
-    bottom: 35px;
+    bottom: 22px;
     left: 40px;
 }
 
+i.card1.fa.fa-star-o{
+    position: relative;
+    bottom: 24px;
+}
+
 .card-footer .rating-card-1{
+    margin: unset;
+    width: fit-content;
     font-size: 15px;
     color: #666672;
     position: relative;
-    bottom: 40px;
+    bottom: 42px;
+    left: 20px;
+}
+
+i.card1.fa.fa-cart-arrow-down{
+    position: relative;
+    bottom: 60px;
+    left: 65px;
 }
 
 .card-footer .purchased-card-1{
+    margin: unset;
+    width: fit-content;
     font-size: 15px;
     color: #666672;
     position: relative;
-    bottom: 73px;
-    left: 55px;
+    bottom: 78px;
+    left: 85px;
 }
 
 .card1-footer-button{
     width: 170px;
     position: relative;
-    bottom: 110px;
+    bottom: 100px;
     left: 240px;
 }
 
@@ -104,7 +123,7 @@ hr{
     height: 40px;
     width: 45px;
     position: relative;
-    bottom: 15px;
+    bottom: 5px;
     color: #666672;
     border-color: #666672;
     border-radius: 5px;
@@ -116,7 +135,7 @@ hr{
     height: 40px;
     width: 120px;
     position: relative;
-    bottom: 15px;
+    bottom: 5px;
     color: #6E66ED;
     border-color: #6E66ED;
     border-radius: 5px;
@@ -138,21 +157,41 @@ hr{
 /* FIN CSS Especial para el primer card */
 
 .card-footer .price{
+    margin: unset;
+    font-size: 20px;
     color: #6E66ED;
     font-weight: bold;
 }
 
+i.fa.fa-star-o{
+    position: relative;
+    bottom: 0px;
+}
+
 .rating{
+    margin: unset;
+    width: fit-content;
+    position: relative;
+    left: 20px;
+    bottom: 18px;
     font-size: 15px;
     color: #666672;
 }
 
+i.fa.fa-cart-arrow-down{
+    position: relative;
+    bottom: 35px;
+    left: 65px;
+}
+
 .purchased{
+    margin: unset;
+    width: fit-content;
     font-size: 15px;
     color: #666672;
     position: relative;
-    bottom: 32px;
-    left: 55px;
+    bottom: 53px;
+    left: 85px;
 }
 
 .card-footer-button{
@@ -170,7 +209,7 @@ i{
     height: 40px;
     width: 45px;
     position: relative;
-    top: 25px;
+    top: 18px;
     color: #666672;
     border-color: #666672;
     border-radius: 5px;
@@ -182,7 +221,7 @@ i{
     height: 40px;
     width: 120px;
     position: relative;
-    top: 25px;
+    top: 18px;
     color: #6E66ED;
     border-color: #6E66ED;
     border-radius: 5px;
