@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0px 1px 0px 1px;
+    background: rgb(228,70,90);
+    background: linear-gradient(90deg, rgba(228,70,90,1) 0%, rgba(241,79,47,1) 50%, rgba(224,73,73,1) 100%);
+}
+
+.flex-container{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 250px;
+}
+
+.item{
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 100px;
+    flex-grow: 1;
+}
+
+.item .subtitle{
+    text-transform: uppercase;
+    margin: unset;
+    font-size: 25px;
+}
+
+#show-days, #show-hours, #show-minutes, #show-seconds{
+    font-weight: lighter;
+    margin: unset;
+}
