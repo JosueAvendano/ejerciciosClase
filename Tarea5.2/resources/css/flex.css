@@ -33,6 +33,14 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.card-title a{
+    text-decoration: none;
+}
+
+.card-title:hover p{
+    color: #6E66ED;
+}
+
 .card-subtitle p{
     margin-left: 10px;
     margin-top: 0px;
@@ -40,6 +48,14 @@ h1{
     font-size: 15px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hr{
+    height: 1px;
+    width: 400px;
+    background-color: #666672;
+    border: none;
+    opacity: 50%;
 }
 
 .card-footer{
@@ -106,6 +122,19 @@ h1{
     border-radius: 5px;
     background-color: #ffff;
 }
+
+.btn-live-preview-1:hover{
+    background-color: #6E66ED;
+    color: #ffff;
+}
+
+.btn-more-info-1:hover{
+    background-color: #666672;
+}
+
+.btn-more-info-1:hover i{
+    color: #ffff;
+}
 /* FIN CSS Especial para el primer card */
 
 .card-footer .price{
@@ -133,6 +162,10 @@ h1{
     left: 225px;
 }
 
+i{
+    color: #666672;
+}
+
 .btn-more-info{
     height: 40px;
     width: 45px;
@@ -156,6 +189,15 @@ h1{
     background-color: #ffff;
 }
 
-i{
-    color: #666672;
+.btn-more-info:hover{
+    background-color: #666672;
+}
+
+.btn-more-info:hover i{
+    color: #ffff;
+}
+
+.btn-live-preview:hover{
+    background-color: #6E66ED;
+    color: #ffff;
 }
