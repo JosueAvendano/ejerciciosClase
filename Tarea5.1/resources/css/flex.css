@@ -8,20 +8,23 @@ body {
     margin: 0px 1px 0px 1px;
     background: rgb(228,70,90);
     background: linear-gradient(90deg, rgba(228,70,90,1) 0%, rgba(241,79,47,1) 50%, rgba(224,73,73,1) 100%);
+    display: flex;
+    align-items: center;
 }
 
 .flex-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
     /* Prueba para centrar el div 
     position: absolute;
     top: 20%;
     left: 0%;
     */
     /*FIN PRUEBA*/
-    position: relative;
-    top: 160px;
+ /*    position: relative;
+    top: 160px; */
 }
 
 .item{
@@ -47,16 +50,18 @@ body {
 }
 
 .btn-container{
+    position: relative;
+    top: 250px;
+    right: 600px;
     text-align: center;
     font-family: sans-serif;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 100px;
+    align-self: center;
 }
 
 .btn-live{
-    position: relative;
-    top: 250px;
     width: 237px;
     height: 50px;
     color: rgb(255, 255, 255);
