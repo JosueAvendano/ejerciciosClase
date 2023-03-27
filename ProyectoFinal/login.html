@@ -13,37 +13,44 @@
 </head>
 <body class="login-body">
     <!-- General container -->
-    <div class="container-fluid">
+    <div class="container-fluid custom-general-container">
         <!-- Main container -->
-        <div class="container-fluid">
-            <div class="card" style="width: 18rem;">
-                <a href="index.html"><img src="resources/img/taskade-logo.png" class="card-img-top" alt="Taskade-Logo"></a>
-                <div class="card-body">
-                    <div class="row">
-                        <h2 class="card-title">Log in</h2>
-                        <p class="card-text">Welcome back to Taskade </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                    <div class="row">
-                        <div class="row"><button type="button">Sign in with Goggle</button></div>
-                        <div class="row"><button type="button">Sign in with Apple</button></div>
-                        <div class="row"><button type="button">Sign in with Apple</button></div>
-                    </div>
-                    <div class="row">
-                        <form>
-                            <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            </div>
-                            <div class="mb-3">
-                              <label for="exampleInputPassword1" class="form-label">Password</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
+        <div class="container-fluid custom-main-login-container">
+            <!-- Card container -->
+            <div class="container-fluid custom-card-login-container">
+                <div class="card custom-login-card" style="width: 18rem;">
+                    <a href="index.html"><img src="resources/img/taskade-logo.png" class="card-img-top" alt="Taskade-Logo"></a>
+                    <div class="card-body custom-card-body-login">
+                        <div class="row custom-row-card-title">
+                            <h2 class="card-title">Log in</h2>
+                            <p class="card-text">Welcome back to Taskade</p>
+                        </div>
+                        <div class="row custom-row-btn-sign-in">
+                            <button class="btn-google-login" type="button"><img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="GoogleLogo">Sign in with Goggle</button>
+                            <button class="btn-apple-login" type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Apple_logo_white.svg" alt="AppleLogo" width="20.4px">Sign in with Apple</button>
+                            <button type="button">Sign in with Single Sign-On</button>
+                        </div>
+                        <div class="row custom-row-form">
+                            <form>
+                                <div class="mb-3">
+                                  <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+                                  <input type="email" class="form-control custom-form-control" id="exampleInputEmail1" placeholder="Username or email">
+                                </div>
+                                <div class="mb-3">
+                                  <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+                                  <input type="password" class="form-control custom-form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <label for="forgot-pass" class="form-label">Forgot Password?</label>
+                                <button type="submit" class="btn-login">Log in</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
+                <div class="custom-card-footer-log-in">
+                    Don't have an account? <span>Sign up</span> 
+                </div>
             </div>
+            <!-- FIN Card container -->
         </div>
         <!-- FIN Main container -->
     </div>
