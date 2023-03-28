@@ -1,6 +1,15 @@
 /* Variables Generales */
+/* Variables for FAQ Container Elements */
+/*$btn-border-focus-color: rgb(255, 255, 255) */
+/* FIN Variables for FAQ Container Elements */
+/* Span gradient */
+/* FIN Span gradient */
 body {
   background-color: rgb(54, 53, 53);
+}
+
+.custom-general-container {
+  padding: 0px;
 }
 
 .pre-nav-container {
@@ -58,7 +67,84 @@ body {
   border-color: rgb(255, 45, 96);
 }
 
+.custom-faq-container {
+  text-align: center;
+  color: rgb(227, 229, 232);
+}
+.custom-faq-container p {
+  color: rgb(144, 152, 162);
+}
+.custom-faq-container p a {
+  color: rgb(227, 229, 232);
+}
+.custom-faq-container .accordion {
+  --bs-accordion-btn-bg: $background-color;
+  --bs-accordion-btn-color: $text-color;
+  --bs-accordion-active-bg: $background-color;
+  --bs-accordion-active-color: $text-color;
+  /*--bs-accordion-btn-focus-border-color: $btn-border-focus-color */
+  --bs-accordion-btn-focus-box-shadow: $btn-focus-box-shadow;
+  /*--bs-accordion-btn-icon: $btn-icon */
+}
+.custom-faq-container .accordion .accordion-item {
+  background: rgb(0, 0, 0);
+}
+.custom-faq-container .accordion .accordion-item .accordion-header {
+  color: rgb(227, 229, 232);
+}
+.custom-faq-container .custom-row-see-all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.custom-faq-container .custom-row-see-all button {
+  width: 120px;
+  height: 50px;
+  color: rgb(227, 229, 232);
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: solid rgb(255, 255, 255) 1px;
+}
+.custom-faq-container .custom-row-see-all button span .fa {
+  color: rgb(227, 229, 232);
+}
+
+.custon-join-container {
+  color: rgb(227, 229, 232);
+  text-align: center;
+}
+.custon-join-container h2 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+.custon-join-container span {
+  background: linear-gradient(to left, rgb(30, 104, 214) 0%, rgb(255, 92, 135) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.custon-join-container .custom-row-form {
+  justify-content: center;
+}
+.custon-join-container .custom-row-form .input-group {
+  width: 371px;
+  border-radius: 48px;
+}
+.custon-join-container input {
+  background: rgb(0, 0, 0);
+  border-color: #fafafa;
+}
+.custon-join-container button {
+  background: rgb(255, 45, 96);
+  color: rgb(227, 229, 232);
+}
+
 /* Variables Generales */
+/* Variables for FAQ Container Elements */
+/*$btn-border-focus-color: rgb(255, 255, 255) */
+/* FIN Variables for FAQ Container Elements */
+/* Span gradient */
+/* FIN Span gradient */
 .general-container {
   display: flex;
   flex-direction: column;
@@ -186,10 +272,6 @@ h1 {
   background-color: rgb(28, 31, 34);
 }
 
-.custom-general-container {
-  padding: 0px;
-}
-
 .custom-main-login-container {
   display: flex;
   flex-wrap: wrap;
@@ -307,4 +389,106 @@ h1 {
 .custom-card-footer-log-in {
   padding-top: 15px;
   color: rgb(147, 153, 159);
+}
+
+.custom-downloads-title {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+  font-family: "Work Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+.custom-downloads-title h1 {
+  color: rgb(227, 229, 232);
+  font-size: 52px;
+}
+.custom-downloads-title h1 span {
+  /*color: rgb(252,70,107) */
+  /*color: linear-gradient(90deg, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%)  */
+  background: #121FCF;
+  background: linear-gradient(to left, rgb(30, 104, 214) 0%, rgb(255, 92, 135) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.custom-downloads-title p {
+  color: rgb(227, 229, 232);
+  font-size: 20px;
+}
+
+.custom-desktop-apps-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  color: rgb(227, 229, 232);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.04);
+  background-image: radial-gradient(circle at top left, rgba(246, 105, 66, 0.05) 10%, transparent 40%), radial-gradient(circle at bottom right, rgba(250, 219, 95, 0.05) 10%, transparent 50%);
+  box-shadow: inset 0 1px 3px hsla(0, 0%, 100%, 0.15), inset 0 -1px 3px #000;
+  -webkit-backdrop-filter: blur(24px);
+          backdrop-filter: blur(24px);
+  border-radius: 24px;
+}
+.custom-desktop-apps-container h2 {
+  /*margin-top: 20px */
+  font-weight: bolder;
+}
+
+.custom-row-btn .col p {
+  color: rgb(144, 152, 162);
+}
+.custom-row-btn .col button {
+  width: 80px;
+  height: 80px;
+  background: hsla(0, 0%, 100%, 0.04);
+  box-shadow: inset 0 0 2px hsla(0, 0%, 100%, 0.2), inset 0 -1px 3px rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(24px);
+          backdrop-filter: blur(24px);
+  background-image: radial-gradient(circle at bottom, rgba(91, 149, 191, 0.4) 0, hsla(0, 0%, 9%, 0.8) 30%, rgba(30, 30, 30, 0.8) 100%);
+  border-radius: 24px;
+  border: 5px;
+}
+.custom-row-btn .col button i {
+  color: rgb(255, 255, 255);
+}
+.custom-row-btn .col button i .fa {
+  width: 50px;
+  height: 50px;
+}
+
+.custom-row-mobile-browser .custom-col-mobile-browser {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(227, 229, 232);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.04);
+  background-image: radial-gradient(circle at top left, rgba(246, 105, 66, 0.05) 10%, transparent 40%), radial-gradient(circle at bottom right, rgba(250, 219, 95, 0.05) 10%, transparent 50%);
+  box-shadow: inset 0 1px 3px hsla(0, 0%, 100%, 0.15), inset 0 -1px 3px #000;
+  -webkit-backdrop-filter: blur(24px);
+          backdrop-filter: blur(24px);
+  border-radius: 24px;
+}
+.custom-row-mobile-browser .custom-col-mobile-browser .row .col button {
+  width: 80px;
+  height: 80px;
+  background: hsla(0, 0%, 100%, 0.04);
+  box-shadow: inset 0 0 2px hsla(0, 0%, 100%, 0.2), inset 0 -1px 3px rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(24px);
+          backdrop-filter: blur(24px);
+  background-image: radial-gradient(circle at bottom, rgba(91, 149, 191, 0.4) 0, hsla(0, 0%, 9%, 0.8) 30%, rgba(30, 30, 30, 0.8) 100%);
+  border-radius: 24px;
+  border: 5px;
+}
+.custom-row-mobile-browser .custom-col-mobile-browser .row .col button i {
+  color: rgb(255, 255, 255);
+}
+.custom-row-mobile-browser .custom-col-mobile-browser .row .col button i .fa {
+  width: 50px;
+  height: 50px;
 }/*# sourceMappingURL=base.css.map */
