@@ -1,6 +1,8 @@
 @import 'variables'
 body
     background-color: $body-background-color
+.custom-general-container
+    padding: $general-container-padding
 .pre-nav-container
    text-align: $pre-nav-align-text
    padding: $pre-nav-padding
@@ -36,10 +38,69 @@ body
         border-color: $nav-button-log-in-border-color
     .button-sign-up
         color: $navbar-font-color
-        background-color: $nav-button-sign-up-background-color
+        background-color: $btn-cherry-background-color
         border-radius: $nav-border-radius
         width: $nav-button-sign-up-width
         height: $nav-button-sign-up-height
         border-style: $nav-button-border-style
-        border-color: $nav-button-sign-up-border-color
+        border-color: $btn-cherry-background-color
+.custom-faq-container
+    text-align: $text-align
+    color: $text-color
+    p
+        color: $p-text-color
+        a
+            color: $text-color
+    .accordion
+        --bs-accordion-btn-bg: $background-color
+        --bs-accordion-btn-color: $text-color
+        --bs-accordion-active-bg: $background-color
+        --bs-accordion-active-color: $text-color
+        /*--bs-accordion-btn-focus-border-color: $btn-border-focus-color
+        --bs-accordion-btn-focus-box-shadow: $btn-focus-box-shadow
+        /*--bs-accordion-btn-icon: $btn-icon
+        .accordion-item
+            background: $background-color
+            .accordion-header
+                color: $text-color
+    .custom-row-see-all
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: center
+        button
+            width: 120px
+            height: 50px
+            color: $text-color
+            background: $background-color
+            border-radius: 10px
+            border: solid rgb(255, 255, 255) 1px
+            span
+                .fa
+                    color: $text-color
+.custon-join-container
+    color: $text-color
+    text-align: $text-align
+    h2
+        font-weight: bolder
+        font-size: 40px
+    span
+        background: $span-text-gradient
+        -webkit-background-clip: $webkit-background-clip
+        -webkit-text-fill-color: $webkit-text-fill-color
+    .custom-row-form
+        justify-content: center
+        .input-group
+            width: 371px
+            border-radius: 48px
+    input
+        background: $background-color
+        border-color: #fafafa
+    button
+        background: $btn-cherry-background-color
+        color: $text-color
 
+    
+
+
+        
