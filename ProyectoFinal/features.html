@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- div General container -->
-    <div class="container-fluid">
+    <div class="container-fluid custom-general-container">
         <!-- div Pre-Nav -->
         <div class="pre-nav-container">
             <a class="a-main" href=""><i class="fa-regular fa-robot"></i><span>Introducing Taskade AI</span> - now on all platforms! Try for free and experience the future of productivity.</a>
@@ -22,7 +22,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="./resources/img/taskade-logo.png" alt="Logo" class="d-inline-block align-text-top"> taskade</a>
+                <a class="navbar-brand" href="index.html"><img src="https://da6jagld7tjfl.cloudfront.net/anrxodel86g7hvgjgufo4dxr75g8" alt="Logo" class="d-inline-block align-text-top"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -47,7 +47,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="templtes.html">Templates</a>
+                            <a class="nav-link" href="templates.html">Templates</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="pricing.html">Pricing</a>
@@ -65,40 +65,42 @@
         <!-- div Main container -->
         <div class="container-fluid">
             <!-- Banner Principal -->
-            <div class="container-fluid">
-                <div class="row">
-                    <h2><span>Compare</span> plans and features</h2>
+            <div class="container-fluid custom-main-banner-container">
+                <div class="row custom-row-features-title">
+                    <h1><span>Compare</span> plans and features</h1>
                 </div>
-                <div class="row">
-                    <div class="col">
+                <div class="row custom-row-main-banner">
+                    <div class="col custom-col-personal">
                         <button type="button">Personal & Family</button>
                     </div>
-                    <div class="col">
+                    <div class="col custom-col-team">
                         <button type="button">Teams & Business</button>
                     </div>
                 </div>
             </div>
             <!-- FIN Banner Principal -->
-            <hr>
+            <hr class="custom-hr">
             <!-- Tables Container -->
-            <div class="container-fluid">
+            <div class="container-fluid custom-table-container-features">
                 <!-- Table Banner container -->
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col"><h5>Free</h5></div>
-                        <div class="col"><h5>Starter</h5></div>
-                        <div class="col"><h5>Plus</h5></div>
+                <div class="container-fluid custom-table-banner-container">
+                    <div class="row custom-row-table-title">
+                        <div class="col-4"></div>
+                        <div class="col"><h3>Free</h3></div>
+                        <div class="col"><h3>Starter</h3></div>
+                        <div class="col"><h3>Plus</h3></div>
                     </div>
-                    <div class="row">
-                        <div class="col"><button type="button">Buy Now</button></div>
-                        <div class="col"><button type="button">Buy Now</button></div>
-                        <div class="col"><button type="button">Buy Now</button></div>
+                    <div class="row custom-row-table-btns">
+                        <div class="col-4"></div>
+                        <div class="col custom-col-btns"><button type="button">Buy Now</button></div>
+                        <div class="col custom-col-btns"><button type="button">Buy Now</button></div>
+                        <div class="col custom-col-btns"><button type="button">Buy Now</button></div>
                     </div>
                 </div>
                 <!-- FIN Table Banner container -->
                 <!-- Usage Table -->
                 <div class="row">
-                    <table class="table">
+                    <table class="table custom-table-usage">
                         <thead>
                           <tr>
                                 <th colspan="4">Usage</th>
@@ -753,31 +755,27 @@
             </div>
             <!-- FIN Tables Container -->
             <!-- Get Taskade container -->
-            <div class="container-fluid">
-                <!-- Outer Get Taskade decoration container -->
-                <div class="container-fluid">
-                    <!-- Inner Get Taskade container-->
-                    <div class="container-fluid">
-                        <h3>Get Taskade on Any Device</h3>
-                        <div class="row">
-                            <div class="col">Android</div>
-                            <div class="col">iOS</div>
-                            <div class="col">Mac</div>
-                            <div class="col">Windows</div>
-                            <div class="col">Linux(x86)</div>
-                            <div class="col">Linux(ARM)</div>
-                            <div class="col">Chrome</div>
-                            <div class="col">Firefox</div>
-                            <div class="col">Edge</div>
-                        </div>
+            <div class="container-fluid custom-taskade-general-container">
+                <!--Inner Get Taskade container-->
+                <div class="container-fluid custom-get-taskade-container">
+                    <h2>Get Taskade on Any Device</h2>
+                    <div class="row custom-row-btn">
+                        <div class="col"><button type="button"><i class="fa fa-android" aria-hidden="true"></i></button><p>Android</p></div>
+                        <div class="col"><button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button><p>iOS</p></div>
+                        <div class="col"><button type="button"><i class="fa fa-apple" aria-hidden="true"></i></i></button><p>Mac</p></div>
+                        <div class="col"><button type="button"><i class="fa fa-windows" aria-hidden="true"></i></button><p>Windows</p></div>
+                        <div class="col"><button type="button"><i class="fa fa-linux" aria-hidden="true"></i></button><p>Linux (x86)</p></div>
+                        <div class="col"><button type="button"><i class="fa fa-linux" aria-hidden="true"></i></button><p>Linux (ARM)</p></div>
+                        <div class="col"><button type="button"><i class="fa fa-chrome" aria-hidden="true"></i></button><p>Chrome</p></div>
+                        <div class="col"><button type="button"><i class="fa fa-firefox" aria-hidden="true"></i></button><p>Firefox</p></div>
+                        <div class="col"><button type="button"><i class="fa fa-edge" aria-hidden="true"></i></button><p>Edge</p></div>
                     </div>
-                    <!-- FIN Inner Get Taskade container-->
                 </div>
-                <!-- FIN Outer Taskade decoration container -->
+                <!-- FIN Inner Get Taskade container-->
             </div>
             <!-- FIN Get Taskade container -->
             <!-- FAQ container -->
-            <div class="container-fluid">
+            <div class="container-fluid custom-faq-container">
                 <div class="row">
                     <h2>Frequently Asked Questions</h2>
                     <p>Can't find the answer you're looking for? Please visit our <a href="">Help Center</a>.</p>
@@ -940,35 +938,36 @@
                     </div>
                     <!-- FIN Grupo de Acordiones 2 -->
                 </div>
-                <div class="row">
+                <div class="row custom-row-see-all">
                     <button type="">See all</button>
                 </div>
             </div>
             <!-- FIN FAQ container -->
             <!-- Trusted & Loved... container -->
-            <div class="container-fluid">
+            <div class="container-fluid custom-trusted-container">
                 <h4>Trusted and Loved by Teams at:</h4>
-                <div class="row">
-                    <div class="col">lyft</div>
-                    <div class="col">Transfer</div>
-                    <div class="col">Compass</div>
-                    <div class="col">Netflix</div>
-                    <div class="col">Booking.com</div>
-                    <div class="col">Sony</div>
+                <div class="row custom-trusted-row">
+                    <div class="col"><img src="./resources/img/lyft-logo.png" alt="lyftLogo"></div>
+                    <div class="col"><img src="./resources/img/transfer-wise.png" alt="TransferWiseLogo"></div>
+                    <div class="col"><img src="./resources/img/compass-logo.png" alt="compassLogo"></div>
+                    <div class="col"><img src="./resources/img/netflix-logo.png" alt="netflixLogo"></div>
+                    <div class="col"><img src="./resources/img/booking-logo.png" alt="bookingLogo"></div>
+                    <div class="col"><img src="./resources/img/sony-logo.png" alt="sonyLogo"></div>
                 </div>
             </div>
             <!-- FIN Trusted & Loved... container -->
+            <hr class="custom-hr">
             <!-- Got a Question? Get in touch container -->
-            <div class="container-fluid">
+            <div class="container-fluid custom-touch-container">
                 <div class="row">
-                    <div class="col">figura1</div>
-                    <div class="col">
+                    <div class="col custom-col-question"><i class="fa fa-times" aria-hidden="true"></i></div>
+                    <div class="col custom-col-question">
                         <h2>Got a question? <span>Get in touch</span></h2>
-                        <div class="row">
-                            <button type="button">Contact Us</button>
+                        <div class="row custom-row-contact-btn">
+                            <button type="button">Contact us</button>
                         </div>
                     </div>
-                    <div class="col">figura2</div>
+                    <div class="col custom-col-question"><i class="fa fa-cube" aria-hidden="true"></i></div>
                 </div>
             </div>
             <!-- FIN Got a Question? Get in touch container -->
