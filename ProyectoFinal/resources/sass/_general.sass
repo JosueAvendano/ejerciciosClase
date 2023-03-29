@@ -1,9 +1,11 @@
 @import 'variables'
 body
-    background-color: $body-background-color
+    background-color: $body-bg-color
+    font-family: $general-font-family
 .custom-general-container
     padding: $general-container-padding
 .pre-nav-container
+   background: $pre-nav-bg-color
    text-align: $pre-nav-align-text
    padding: $pre-nav-padding
 .pre-nav-container
@@ -38,31 +40,32 @@ body
         border-color: $nav-button-log-in-border-color
     .button-sign-up
         color: $navbar-font-color
-        background-color: $btn-cherry-background-color
+        background-color: $btn-cherry-bg-color
         border-radius: $nav-border-radius
         width: $nav-button-sign-up-width
         height: $nav-button-sign-up-height
         border-style: $nav-button-border-style
-        border-color: $btn-cherry-background-color
+        border-color: $btn-cherry-bg-color
+/* FAQ Container */
 .custom-faq-container
-    text-align: $text-align
-    color: $text-color
+    text-align: $text-align-center
+    color: $text-color-white
     p
         color: $p-text-color
         a
-            color: $text-color
+            color: $text-color-white
     .accordion
         --bs-accordion-btn-bg: $background-color
-        --bs-accordion-btn-color: $text-color
+        --bs-accordion-btn-color: $text-color-white
         --bs-accordion-active-bg: $background-color
-        --bs-accordion-active-color: $text-color
+        --bs-accordion-active-color: $text-color-white
         /*--bs-accordion-btn-focus-border-color: $btn-border-focus-color
         --bs-accordion-btn-focus-box-shadow: $btn-focus-box-shadow
         /*--bs-accordion-btn-icon: $btn-icon
         .accordion-item
             background: $background-color
             .accordion-header
-                color: $text-color
+                color: $text-color-white
     .custom-row-see-all
         display: flex
         flex-direction: row
@@ -71,16 +74,17 @@ body
         button
             width: 120px
             height: 50px
-            color: $text-color
-            background: $background-color
+            color: $text-color-white
+            background: $btn-black-bg-color
             border-radius: 10px
             border: solid rgb(255, 255, 255) 1px
             span
                 .fa
-                    color: $text-color
+                    color: $text-color-white
+/* FIN FAQ Container */
 .custon-join-container
-    color: $text-color
-    text-align: $text-align
+    color: $text-color-white
+    text-align: $text-align-center
     h2
         font-weight: bolder
         font-size: 40px
@@ -97,8 +101,139 @@ body
         background: $background-color
         border-color: #fafafa
     button
-        background: $btn-cherry-background-color
-        color: $text-color
+        background: $btn-cherry-bg-color
+        color: $text-color-white
+/* Table Banner para las paginas de Security y Pricing */
+.custom-table-banner-container
+    .custom-row-table-title
+        color: $text-color-white
+        text-align: $text-align-center
+    .custom-row-table-btns
+        .custom-col-btns
+            display: $display-flex
+            flex-direction: $flex-direction-row
+            flex-wrap: wrap $flex-wrap
+            justify-content: $jc-center
+            button
+                min-width: 35%
+                max-width: 100%
+                height: 180%
+                color: $text-color-white
+                background: $btn-black-bg-color
+                border-radius: 10px
+                border: solid 1px $btn-white-border
+.table
+    color: $text-color-white
+    th
+        color: $text-color-gray
+        text-decoration: underline dashed
+        width: 35%
+    td
+        text-align: $text-align-center
+/* FIN Table Banner para las paginas de Security y Pricing */
+/* Get Taskade Container */   
+.custom-taskade-general-container
+    margin-top: $margin-top-taskade-container
+    margin-bottom: $margin-bottom-taskade-container
+    display: $display-flex
+    flex-direction: $flex-direction-col
+    flex-wrap: $flex-wrap
+    justify-content: $jc-center
+    align-content: $ac-center
+    width: $outer-container-width
+    height: $outer-container-height
+    border-radius: $container-border-radius
+    background: $bg-color-container
+    padding: 40px 40px 40px 40px
+.custom-get-taskade-container   
+    padding: 40px 40px 40px 40px
+    h2
+        width: $h2-get-taskade-width
+        text-transform: $h2-get-taskade-text-transform
+        font-size: $h2-get-taskade-font-size
+        font-weight: $h2-get-taskade-font-weight
+        margin: $h2-get-taskade-margin
+        line-height: $h2-get-taskade-line-height
+    text-align: $text-align-center
+    color: $text-color-white
+.custom-row-btn
+    .col
+        width: 100%
+        height: 100%
+        p
+            color:  rgb(144, 152, 162)
+        button
+            width: $btn-get-taskade-width
+            height: $btn-get-taskade-height
+            background: $btn-get-taskade-bg-color
+            box-shadow: $btn-get-taskade-box-shadow
+            backdrop-filter: $btn-get-taskade-backdrop-filter
+            background-image: $btn-get-taskade-bg-image
+            border-radius: $btn-get-taskade-border-radius
+            border: $btn-get-taskade-border
+            i
+                color: $btn-get-taskade-i-fa-color
+                .fa
+                    width: $btn-get-taskade-i-fa-width
+                    height: $btn-get-taskade-i-fa-width
+/* FIN Get Taskade Container */    
+.custom-hr
+    border: 1px solid $hr-gray-border
+/* Trusted & Loved by... container */
+.custom-trusted-container
+    margin-top: 5%
+    margin-bottom: 5% 
+    text-align: $text-align-center
+    color: $text-color-white
+    .custom-trusted-row
+        display: $display-flex
+        flex-direction: $flex-direction-row
+        flex-wrap: $flex-wrap
+        align-content: $ac-center
+        align-items: $ai-center
+        justify-content: $jc-space-around
+    .col
+        width: 100% 
+        height: 100%
+    img
+        width: 100px 
+        height: 100%
+/* FIN Trusted & Loved by... container */
+/* Get in Touch container */
+.custom-touch-container
+    margin-top: 5%
+    margin-bottom: 5%
+    padding: 100px 20px 100px 20px
+    text-align: $text-align-center
+    color: $text-color-white
+    h2
+        font-weight: 700
+        line-height: 128%
+    span
+        background: $span-text-gradient
+        -webkit-background-clip: $webkit-background-clip
+        -webkit-text-fill-color: $webkit-text-fill-color
+    .custom-row-contact-btn
+        margin-top: 10%
+        margin-bottom: 10%
+        button
+            padding: 15px 20px 15px 20px
+            width: fit-content
+            height: 100%
+            border-radius: $btn-border-radius
+            color: $text-color-white
+            font-weight: 500
+            background: $btn-cherry-bg-color
+            border: $btn-cherry-border
+    .custom-col-question
+        display: $display-flex
+        flex-direction: $flex-direction-col
+        flex-wrap: $flex-wrap
+        align-content: $ac-center
+        align-items: $ai-center
+        justify-content: $jc-space-around
+        align-items: $ai-center
+/* FIN Get in Touch container */
 
     
 
