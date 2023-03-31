@@ -103,7 +103,13 @@ body
     button
         background: $btn-cherry-bg-color
         color: $text-color-white
-/* Table Banner para las paginas de Security y Pricing */
+/* Table Banner para las paginas de Templates y Pricing */
+.custom-table-container-features
+    .row
+        display: $display-flex
+        flex-direction: $flex-direction-row
+        flex-wrap: $flex-wrap
+        justify-content: $jc-center
 .custom-table-banner-container
     .custom-row-table-title
         color: $text-color-white
@@ -112,7 +118,7 @@ body
         .custom-col-btns
             display: $display-flex
             flex-direction: $flex-direction-row
-            flex-wrap: wrap $flex-wrap
+            flex-wrap: $flex-wrap
             justify-content: $jc-center
             button
                 min-width: 35%
@@ -130,6 +136,12 @@ body
         width: 35%
     td
         text-align: $text-align-center
+        span
+            img
+                /*min-width: fit-content
+                /*max-width: fit-content
+                width: 20px
+                height: auto
 /* FIN Table Banner para las paginas de Security y Pricing */
 /* Get Taskade Container */   
 .custom-taskade-general-container
