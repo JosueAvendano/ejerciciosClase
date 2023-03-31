@@ -2,3 +2,47 @@
 .custom-main-templates-container
     hr
         border: 1px solid $hr-gray-border
+    .custom-main-banner-templates
+        h1
+            font-weight: 500
+            font-size: 52px
+            line-height: 125%
+            span
+                background: $span-text-gradient
+                -webkit-background-clip: $webkit-background-clip
+                -webkit-text-fill-color: $webkit-text-fill-color
+    .custom-card-container
+        a
+            color: $text-color-white
+            text-decoration: none
+        .custom-row-title
+            margin: 2%
+            margin-left: 5px
+        button
+            min-width: 70%
+            max-width: fit-content
+            min-height: 100%
+            max-height: 100%
+            padding: 15px 20px
+            color: $text-color-white
+            background: $body-bg-color
+            border: $btn-border-solid-white
+            border-radius: 8px
+        .custom-row-card
+            margin: 2%
+            .col
+                display: flex
+                flex-direction: $flex-direction-col
+                flex-wrap: $flex-wrap
+                align-content: $ac-center
+            .card
+                background: $body-bg-color
+                color: $text-color-white
+                width: 20rem
+                height: 250px
+                img
+                    height: 200px
+                .card-body
+                    font-size: 18px
+                    font-weight: 500
+                    padding-left: 0px
