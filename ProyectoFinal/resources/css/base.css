@@ -1060,6 +1060,59 @@ h1 {
 .custom-main-templates-container hr {
   border: 1px solid rgb(144, 152, 162);
 }
+.custom-main-templates-container .custom-main-banner-templates h1 {
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 125%;
+}
+.custom-main-templates-container .custom-main-banner-templates h1 span {
+  background: linear-gradient(to left, rgb(30, 104, 214) 0%, rgb(255, 92, 135) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.custom-main-templates-container .custom-card-container a {
+  color: rgb(227, 229, 232);
+  text-decoration: none;
+}
+.custom-main-templates-container .custom-card-container .custom-row-title {
+  margin: 2%;
+  margin-left: 5px;
+}
+.custom-main-templates-container .custom-card-container button {
+  min-width: 70%;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  min-height: 100%;
+  max-height: 100%;
+  padding: 15px 20px;
+  color: rgb(227, 229, 232);
+  background: rgb(5, 5, 5);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+.custom-main-templates-container .custom-card-container .custom-row-card {
+  margin: 2%;
+}
+.custom-main-templates-container .custom-card-container .custom-row-card .col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.custom-main-templates-container .custom-card-container .custom-row-card .card {
+  background: rgb(5, 5, 5);
+  color: rgb(227, 229, 232);
+  width: 20rem;
+  height: 250px;
+}
+.custom-main-templates-container .custom-card-container .custom-row-card .card img {
+  height: 200px;
+}
+.custom-main-templates-container .custom-card-container .custom-row-card .card .card-body {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 0px;
+}
 
 /* Variables Generales */
 /* Variables de flex */
