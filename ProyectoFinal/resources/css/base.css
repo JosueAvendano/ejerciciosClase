@@ -148,7 +148,14 @@ body {
   color: rgb(227, 229, 232);
 }
 
-/* Table Banner para las paginas de Security y Pricing */
+/* Table Banner para las paginas de Templates y Pricing */
+.custom-table-container-features .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .custom-table-banner-container .custom-row-table-title {
   color: rgb(227, 229, 232);
   text-align: center;
@@ -156,7 +163,7 @@ body {
 .custom-table-banner-container .custom-row-table-btns .custom-col-btns {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap wrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .custom-table-banner-container .custom-row-table-btns .custom-col-btns button {
@@ -180,6 +187,12 @@ body {
 }
 .table td {
   text-align: center;
+}
+.table td span img {
+  /*min-width: fit-content */
+  /*max-width: fit-content */
+  width: 20px;
+  height: auto;
 }
 
 /* FIN Table Banner para las paginas de Security y Pricing */
@@ -726,6 +739,17 @@ h1 {
   color: rgb(147, 153, 159);
 }
 
+/* Variables Generales */
+/* Variables de flex */
+/* FIN Variables de flex */
+/* Variables for FAQ Container Elements */
+/*$btn-border-focus-color: rgb(255, 255, 255) */
+/* FIN Variables for FAQ Container Elements */
+/* Span gradient */
+/* FIN Span gradient */
+/* Variables de Get Taskade Container */
+/*$btn-get-taskade-width: 80px */
+/* FIN Variables de Get Taskade Container */
 .custom-downloads-title {
   display: flex;
   flex-direction: row;
@@ -1035,4 +1059,111 @@ h1 {
 /* FIN Variables de Get Taskade Container */
 .custom-main-templates-container hr {
   border: 1px solid rgb(144, 152, 162);
+}
+
+/* Variables Generales */
+/* Variables de flex */
+/* FIN Variables de flex */
+/* Variables for FAQ Container Elements */
+/*$btn-border-focus-color: rgb(255, 255, 255) */
+/* FIN Variables for FAQ Container Elements */
+/* Span gradient */
+/* FIN Span gradient */
+/* Variables de Get Taskade Container */
+/*$btn-get-taskade-width: 80px */
+/* FIN Variables de Get Taskade Container */
+.custom-accordion-item {
+  background: rgb(5, 5, 5);
+  /*.accordion-button.collapsed
+  *  background: rgb(255, 0, 0) */
+  /*.accordion-button.collapsed::after
+  *  background: rgb(0, 0, 255) */
+}
+
+.custom-main-banner-pricing-container {
+  margin-top: 5%;
+  margin-bottom: 27px;
+}
+.custom-main-banner-pricing-container h1 {
+  text-align: center;
+  color: rgb(227, 229, 232);
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 125%;
+}
+.custom-main-banner-pricing-container h1 span {
+  background: linear-gradient(to left, rgb(30, 104, 214) 0%, rgb(255, 92, 135) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.custom-main-banner-pricing-container .custom-row-pricing-title {
+  margin-bottom: 3%;
+}
+.custom-main-banner-pricing-container .custom-row-main-banner-pricing .custom-col-personal-pricing, .custom-main-banner-pricing-container .custom-row-main-banner-pricing .custom-col-team-pricing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.custom-main-banner-pricing-container .custom-row-main-banner-pricing .custom-col-personal-pricing button, .custom-main-banner-pricing-container .custom-row-main-banner-pricing .custom-col-team-pricing button {
+  min-width: 35%;
+  max-width: 100%;
+  height: 200%;
+  color: rgb(227, 229, 232);
+  background: rgb(5, 5, 5);
+  border: solid 1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-color: rgb(5, 5, 5);
+}
+
+.custom-container-pricing-cards {
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+.custom-container-pricing-cards .card {
+  margin-right: 15px;
+  width: 18rem;
+  height: 600px;
+  color: rgb(227, 229, 232);
+  background: rgb(5, 5, 5);
+  border-radius: 22px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.custom-container-pricing-cards .card h6 {
+  color: rgb(144, 152, 162) !important;
+}
+.custom-container-pricing-cards .card h1 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 58px;
+}
+.custom-container-pricing-cards .card button {
+  width: 100%;
+  height: 56px;
+  color: rgb(227, 229, 232);
+  background: rgb(5, 5, 5);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+.custom-container-pricing-cards .custom-col-price {
+  display: flex;
+}
+.custom-container-pricing-cards .custom-col-price .custom-col-per-month {
+  margin-left: 10px;
+}
+.custom-container-pricing-cards .custom-card-starter {
+  background: rgba(255, 255, 255, 0.04);
+  background-image: radial-gradient(circle at top left, rgba(246, 105, 66, 0.05) 10%, transparent 40%), radial-gradient(circle at bottom right, rgba(250, 219, 95, 0.05) 10%, transparent 50%);
+  box-shadow: inset 0 1px 3px hsla(0, 0%, 100%, 0.15), inset 0 -1px 3px #000;
+  -webkit-backdrop-filter: blur(24px);
+          backdrop-filter: blur(24px);
+}
+.custom-container-pricing-cards .custom-card-starter button {
+  background: rgb(255, 45, 96);
+  border: 1px solid rgb(255, 45, 96);
 }/*# sourceMappingURL=base.css.map */
