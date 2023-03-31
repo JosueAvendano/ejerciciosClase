@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- General container -->
-    <div class="container-fluid">
+    <div class="container-fluid custom-general-container">
         <!-- div Pre-Nav -->
         <div class="pre-nav-container">
             <a class="a-main" href=""><span>🤖Introducing Taskade AI</span> - now on all platforms! Try for free and experience the future of productivity.</a>
@@ -22,7 +22,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="./resources/img/taskade-logo.png" alt="Logo" class="d-inline-block align-text-top"> taskade</a>
+                <a class="navbar-brand" href="index.html"><img src="https://da6jagld7tjfl.cloudfront.net/anrxodel86g7hvgjgufo4dxr75g8" alt="Logo" class="d-inline-block align-text-top"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -65,24 +65,31 @@
         <!-- Main container -->
         <div class="container-fluid">
             <!-- Main Banner -->
-            <div class="container-fluid">
-                <h2>Choose your plan. Start <span>free</span>.</h2>
+            <div class="container-fluid custom-main-banner-pricing-container">
+                <div class="row custom-row-pricing-title">
+                    <h1>Choose your plan. Start <span>free</span>.</h1>
+                </div>
+                <div class="row custom-row-main-banner-pricing">
+                    <div class="col custom-col-personal-pricing">
+                        <button type="button">Personal & Family</button>
+                    </div>
+                    <div class="col custom-col-team-pricing">
+                        <button type="button">Teams & Business</button>
+                    </div>
+                </div>
             </div>
             <!-- FIN Main Banner -->
+            <hr class="custom-hr">
             <!-- Pricing Cards container -->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col"><button type="button">Personal & Family</button></div>
-                    <div class="col"><button type="button">Teams & Business</button></div>
-                </div>
+            <div class="container-fluid custom-container-pricing-cards">
                 <div class="row">
                     <!-- Free Card col -->
                     <div class="col">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Free</h5>
+                                <h3 class="card-title">Free</h3>
                                 <h6 class="card-subtitle mb-2 text-body-secondary">Get started with Taskade</h6>
-                                <p class="card-text"><h3>Free</h3></p>
+                                <p class="card-text"><h1>Free</h1></p>
                                 <p class="card-text">Free forever for you</p>
                                 <a href="#" class="card-link"><button type="button">Get Started</button></a>
                             </div>
@@ -103,15 +110,17 @@
                     <!-- Free Card col -->
                     <!-- Starter Card col -->
                     <div class="col">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card custom-card-starter">
                             <div class="card-body">
-                                <h5 class="card-title">Starter</h5>
+                                <h3 class="card-title">Starter</h3>
                                 <h6 class="card-subtitle mb-2 text-body-secondary">Best for personal use</h6>
                                 <div class="row">
-                                    <div class="col"><h3>$4</h3></div>
-                                    <div class="col"><p class="card-text">per month for 3 members</p></div>
+                                    <div class="col custom-col-price">
+                                        <h1>$4</h1>
+                                        <div class="col-6 custom-col-per-month"><p class="card-text">per month for 3 members</p></div>
+                                    </div>
                                 </div>
-                                <p class="card-text">Free forever for you</p>
+                                <p class="card-text">billed annually or $8 billed monthly</p>
                                 <a href="#" class="card-link"><button type="button">Buy Starter</button></a>
                             </div>
                             <div class="card-footer">
@@ -132,13 +141,15 @@
                     <!-- Starter Card col -->
                     <!-- Plus Card col -->
                     <div class="col">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Plus</h5>
+                                <h3 class="card-title">Plus</h3>
                                 <h6 class="card-subtitle mb-2 text-body-secondary">Unlock all essential features</h6>
                                 <div class="row">
-                                    <div class="col"><h3>$8</h3></div>
-                                    <div class="col">per month for 5 members</div>
+                                    <div class="col custom-col-price">
+                                        <h1>$8</h1>
+                                        <div class="col-6 custom-col-per-month">per month for 5 members</div>
+                                    </div>
                                 </div>
                                 <p class="card-text">billed annually or $16 billed monthly</p>
                                 <a href="#" class="card-link"><button type="button">Buy Plus</button></a>
@@ -164,38 +175,39 @@
             <!-- Compare All Features container -->
             <div class="container-fluid">
                 <div class="accordion accordion-flush" id="accordionFlushCompareAllFeatures">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                          <h2>Compare All Features</h2>
-                        </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushCompareAllFeatures">
-                        <div class="accordion-body">
-                            <div class="row">
-                                <div class="col">
-                                    <h5>Free</h5>
-                                    <button type="button">Get Started</button>
-                                </div>
-                                <div class="col">
-                                    <h5>Starter</h5>
-                                    <button type="button">Buy Now</button>
-                                </div>
-                                <div class="col">
-                                    <h5>Plus</h5>
-                                    <button type="button">Buy Now</button>
-                                </div>
-                            </div>
-                            <div class="row">
+                    <div class="accordion-item custom-accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneCompare" aria-expanded="true" aria-controls="flush-collapseOneCompare">
+                                <h2>Compare All Features</h2>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOneCompare" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushCompareAllFeatures">
+                            <div class="accordion-body">
                                 <!-- Tables Container -->
-                                <div class="container-fluid">
+                                <div class="container-fluid custom-table-container-features">
+                                    <!-- Table Banner container -->
+                                    <div class="container-fluid custom-table-banner-container">
+                                        <div class="row custom-row-table-title">
+                                            <div class="col-4"></div>
+                                            <div class="col"><h3>Free</h3></div>
+                                            <div class="col"><h3>Starter</h3></div>
+                                            <div class="col"><h3>Plus</h3></div>
+                                        </div>
+                                        <div class="row custom-row-table-btns">
+                                            <div class="col-4"></div>
+                                            <div class="col custom-col-btns"><button type="button">Buy Now</button></div>
+                                            <div class="col custom-col-btns"><button type="button">Buy Now</button></div>
+                                            <div class="col custom-col-btns"><button type="button">Buy Now</button></div>
+                                        </div>
+                                    </div>
+                                    <!-- FIN Table Banner container -->
                                     <!-- Usage Table -->
                                     <div class="row">
-                                        <table class="table">
+                                        <table class="table custom-table-usage">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Usage</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
@@ -254,34 +266,34 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Customer Favorites</th>
-                                            </tr>
-                                            </thead>
+                                                </tr>
+                                                </thead>
                                             <tbody>
                                                 <tr>
                                                     <th scope="row">500+ Templates</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">Mobile Widgets</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">iOS, Android, Mac, Windows apps</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">Real-time Collaboration & Video Chat</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -291,28 +303,28 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Communication</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                    <th scope="row">Video Chat and Meetings</th>
-                                                    <td>20 Attendees</td>
-                                                    <td>100 Attendees</td>
-                                                    <td>300 Attendees</td>
+                                                <th scope="row">Video Chat and Meetings</th>
+                                                <td>20 Attendees</td>
+                                                <td>100 Attendees</td>
+                                                <td>300 Attendees</td>
                                             </tr>
                                             <tr>
-                                                    <th scope="row">Chat and Messaging</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
+                                                <th scope="row">Chat and Messaging</th>
+                                                <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
                                             </tr>
                                             <tr>
-                                                    <th scope="row">Screen Sharing</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
+                                                <th scope="row">Screen Sharing</th>
+                                                <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -322,71 +334,71 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Collaboration</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
-                                            <tr>
+                                                <tr>
                                                     <th scope="row">Project Activity</th>
                                                     <td>6 months</td>
                                                     <td>1 year</td>
                                                     <td>5 years</td>
-                                            </tr>
-                                            <tr>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Version History</th>
                                                     <td>6 months</td>
                                                     <td>1 year</td>
                                                     <td>5 years</td>
-                                            </tr>
-                                            <tr>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Team Folders</th>
                                                     <td>Unlimited</td>
                                                     <td>Unlimited</td>
                                                     <td>Unlimited</td>
-                                            </tr>
-                                            <tr>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Collaborators Per Project</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Real-time Syncing</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Roadmap and Calendar</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Push Notifications</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Activity Feed</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Search</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Shareable Project Links</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -395,35 +407,35 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Roles for Collaboration</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
-                                            <tr>
+                                                <tr>
                                                     <th scope="row">Guests</th>
                                                     <td>25 per project</td>
                                                     <td>Unlimited</td>
                                                     <td>Unlimited</td>
-                                            </tr>
-                                            <tr>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Viewers</th>
                                                     <td>Unlimited</td>
                                                     <td>Unlimited</td>
                                                     <td>Unlimited</td>
-                                            </tr>
-                                            <tr>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Members</th>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Checkers</th>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -432,65 +444,65 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Integrations</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
-                                            <tr>
+                                                <tr>
                                                     <th scope="row">Embed Projects Anywhere</th>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Embed Apps & Instant Previews</th>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Import and Export</th>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Calendar Feed Integration</th>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Embed Editable Projects</th>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Export as Image</th>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Google Calendar Integration</th>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Automations via Zapier</th>
-                                                    <td>no check</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Dropbox, Google Drive, One Drive</th>
-                                                    <td>no check</td>
-                                                    <td>checks</td>
-                                                    <td>checks</td>
-                                            </tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -499,41 +511,41 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Personalizations</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
-                                            <tr>
+                                                <tr>
                                                     <th scope="row">Internationalization (15+ languages)</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Custom Branding</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Upload Logo</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Upload Backgrounds</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Custom Theme</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -542,59 +554,59 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Administration</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
-                                            <tr>
+                                                <tr>
                                                     <th scope="row">Data Encryption</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Regular Backups</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Google Single Sign-On</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">SAML-based single sign-on (SSO)</th>
-                                                    <td>no check</td>
-                                                    <td>no check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Advanced authentication controls</th>
-                                                    <td>no check</td>
-                                                    <td>no check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Unlimited Workspaces</th>
-                                                    <td>no check</td>
-                                                    <td>no check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">SCIM user provisioning</th>
-                                                    <td>no check</td>
-                                                    <td>no check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Audit Log</th>
-                                                    <td>no check</td>
-                                                    <td>no check</td>
-                                                    <td>check</td>
-                                            </tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -603,95 +615,95 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Productivity</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
-                                            <tr>
+                                                <tr>
                                                     <th scope="row">Reminders & Due Dates</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Recurring Tasks</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Assign Tasks & Projects</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Task Commenting</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Move and Copy</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">@Mention People and Projects</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">#Tag Tasks and Projects</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Countdown Timer</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Backlinks</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Sort Projects & Tasks</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Custom Repeat Interval</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Bulk Assign Tasks</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Bulk Due Dates</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Bulk AI Assistant</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -700,53 +712,53 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Project Views</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
-                                            <tr>
+                                                <tr>
                                                     <th scope="row">List View</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Board View</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Calendar View</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Mind Map View</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Action View</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Org Chart View</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Custom Formatting</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -755,41 +767,41 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Support</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
-                                            <tr>
+                                                <tr>
                                                     <th scope="row">Self-serve Knowledge Base</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">24 / 7 Support</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">On-demand Webinars</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Priority Support</th>
-                                                    <td>no check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Onboarding and Training</th>
-                                                    <td>no check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -798,47 +810,47 @@
                                     <div class="row">
                                         <table class="table">
                                             <thead>
-                                            <tr>
+                                                <tr>
                                                     <th colspan="4">Coming soon!</th>
-                                            </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
-                                            <tr>
+                                                <tr>
                                                     <th scope="row">Gantt Chart View</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Time Tracker</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Email to Taskade</th>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Schedule Templates & Projects</th>
-                                                    <td>no check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Advanced Reporting</th>
-                                                    <td>no check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
-                                            <tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
+                                                <tr>
                                                     <th scope="row">Custom URL & Domain (CNAME)</th>
-                                                    <td>no check</td>
-                                                    <td>check</td>
-                                                    <td>check</td>
-                                            </tr>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_excluded.png" alt="no-check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                    <td><span><img src="https://www.taskade.com/static_images/pricing/feature_included.png" alt="check"></span></td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -847,26 +859,25 @@
                                 <!-- FIN Tables Container -->
                             </div>
                         </div>
-                      </div>
                     </div>
                 </div>
             </div>
             <!-- FIN Compare All Features container -->
             <!-- Trusted & Loved... container -->
-            <div class="container-fluid">
+            <div class="container-fluid custom-trusted-container">
                 <h4>Trusted and Loved by Teams at:</h4>
-                <div class="row">
-                    <div class="col">lyft</div>
-                    <div class="col">Transfer</div>
-                    <div class="col">Compass</div>
-                    <div class="col">Netflix</div>
-                    <div class="col">Booking.com</div>
-                    <div class="col">Sony</div>
+                <div class="row custom-trusted-row">
+                    <div class="col"><img src="./resources/img/lyft-logo.png" alt="lyftLogo"></div>
+                    <div class="col"><img src="./resources/img/transfer-wise.png" alt="TransferWiseLogo"></div>
+                    <div class="col"><img src="./resources/img/compass-logo.png" alt="compassLogo"></div>
+                    <div class="col"><img src="./resources/img/netflix-logo.png" alt="netflixLogo"></div>
+                    <div class="col"><img src="./resources/img/booking-logo.png" alt="bookingLogo"></div>
+                    <div class="col"><img src="./resources/img/sony-logo.png" alt="sonyLogo"></div>
                 </div>
             </div>
             <!-- FIN Trusted & Loved... container -->
             <!-- FAQ container -->
-            <div class="container-fluid">
+            <div class="container-fluid custom-faq-container">
                 <div class="row">
                     <h2>Frequently Asked Questions</h2>
                     <p>Can't find the answer you're looking for? Please visit our <a href="">Help Center</a>.</p>
@@ -1029,22 +1040,22 @@
                     </div>
                     <!-- FIN Grupo de Acordiones 2 -->
                 </div>
-                <div class="row">
+                <div class="row custom-row-see-all">
                     <button type="">See all</button>
                 </div>
             </div>
             <!-- FIN FAQ container -->
             <!-- Got a Question? Get in touch container -->
-            <div class="container-fluid">
+            <div class="container-fluid custom-touch-container">
                 <div class="row">
-                    <div class="col">figura1</div>
-                    <div class="col">
+                    <div class="col custom-col-question"><i class="fa fa-times" aria-hidden="true"></i></div>
+                    <div class="col custom-col-question">
                         <h2>Got a question? <span>Get in touch</span></h2>
-                        <div class="row">
-                            <button type="button">Contact Us</button>
+                        <div class="row custom-row-contact-btn">
+                            <button type="button">Contact us</button>
                         </div>
                     </div>
-                    <div class="col">figura2</div>
+                    <div class="col custom-col-question"><i class="fa fa-cube" aria-hidden="true"></i></div>
                 </div>
             </div>
             <!-- FIN Got a Question? Get in touch container -->
