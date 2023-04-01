@@ -1,93 +1,111 @@
 @import 'variables'
-.general-container
-    display: flex
-    flex-direction: column
-    flex-wrap: wrap
-    align-content: center
-h1
-    color: rgb(255, 255, 255)
-    font-size: 125px
-    text-align: center
-.banner-container
-    padding: 50px 0px 50px 0px
-.container
-    display: flex
-    flex-direction: column
-.button-container
-    display: flex
-    flex-direction: column
-    flex-wrap: wrap
-    align-content: center
-    margin: 0px 0px 50px 0px
-.button-container
-    .buttons-container
+.custom-first-banner-container
+    h2
+        padding: 50px 50px
+        color: $text-color-white
+        text-align: $text-align-center
+        font-size: 8vw
+        font-weight: 650
+.custom-caroussel-container
+    display: $display-flex
+    flex-wrap: $flex-wrap
+    flex-direction: $flex-direction-col
+    align-items: $ai-center
+    .custom-row-btn-caroussel
         button
-            background: rgba(250, 246, 246, 0.597)
-            color: rgb(255, 255, 255)
-            margin-left: 5px
-            border-radius: 15px
-            width: 160px
-            height: 84px
-.carousel-container
-    display: flex
-    flex-direction: column
-    align-items: center
-    margin-bottom: 15%
-    img
-        width: 100%
-        height: 100%
-.outside-decoration-container
-    width: 1300px
-    height: 420px
-.device-container
-    width: 1200px
-    height: 310px
-    border-radius: 12px
-    background-color: rgba(23, 25, 28, 0.6)
-    display: flex
-    flex-direction: column
-    align-items: center
-    flex-wrap: wrap
-    justify-content: center
-    a
-        color: rgb(250, 250, 250)
-        text-decoration: none
-        text-transform: uppercase
-        font-size: 25px
-.browser-container
-    display: flex
-    flex-wrap: wrap
-    gap: 10px
-    a
-        color: rgb(144, 152, 162)
-        text-transform: none
-        font-size: 15px
-.title
-    text-align: center
-    font-size: 125px
-    line-height: 120px
-    color: rgb(250, 250, 250)
-.subtitle
-    /* width: 800px */
-    /* height: 57px */
-    text-align: center
-    font-size: 25px
-    color: rgb(144, 152, 162)
-.col
-    .ai-content-title
-        color: rgb(255, 255, 255)
-    .ai-content-subtitle
-        color: rgb(144, 152, 162)
-        font-size: 20px
-    hr
-        border: none
-    video
-        border-radius: 25px
-        width: 100%        
-.row
-    .p-replaces
-        color: rgb(144, 152, 162)
-        text-transform: uppercase
-.col
-    .chat-gtp-text, .jasper-text, .copy-ai-text
-        color: rgb(144, 152, 162)
+            background: none
+            color: $text-color-white
+            max-width: 100%
+            height: 100%
+            padding: 8px 16px
+            border: none
+        .btn-1
+            background: rgba(255, 255, 255, 0.08)
+            border-radius: 12px
+    .custom-row-img
+        padding: 50px 50px
+        img
+            max-width: 100%
+            height: 100%
+.custom-second-banner-container, .custom-third-banner-container
+    margin-bottom: 5%
+    text-align: $text-align-center
+    h2
+        /*margin: 0px
+        padding: 20px 50px
+        color: $text-color-white
+        font-size: 5vw
+        font-weight: 650
+    .custom-p-container
+        width: 50%
+        p
+            color: $text-color-gray
+            font-size: 22px
+.custom-card-group-1, .custom-card-group-2
+    margin: 10% 0px
+    color: $text-color-white
+    .custom-row-content-writer, .custom-row-tasks-projects, .custom-row-notes-docs, .custom-row-mind-maps, .custom-row-video-chat, .custom-row-unlimited-sharing, .custom-row-multiple-teams
+        margin: 10%
+        .col
+            video
+                width: 100%
+            img
+                width: 100%
+.custom-card-group-3
+    margin-bottom: 5%
+    color: $text-color-white
+    .custom-row-loved-by
+        padding: 0px 40px
+        h2
+            font-size: 45px
+        .custom-col-btn-customers
+            height: 100%
+            display: $display-flex
+            -webkit-box-pack: end
+            justify-content: $jc-flex-end
+            -webkit-box-align: center
+            align-items: $ai-center
+        button
+            padding: 15px 15px
+            color: $text-color-white
+            background: $body-bg-color
+            border: $btn-border-solid-white
+            border-radius: 8px
+    .custom-row-loved-cards
+        display: $display-flex
+        flex-wrap: $flex-wrap
+        padding: 0px 20px
+        .col
+            display: $display-flex
+            flex-wrap: $flex-wrap
+            justify-content: $jc-center
+        .card
+            width: 28rem
+            padding: 32px 20px
+            background: rgb(16, 17, 19)
+            border-radius: $btn-border-radius-24
+            box-shadow: rgba(255, 255, 255, 0.15) 0px 1px 3px inset, rgb(0, 0, 0) 0px -1px 3px inset
+.custom-card-group-4
+    margin-bottom: 5%
+    color: $text-color-white
+    .custom-row-one-platform
+        padding: 0px 40px
+        h2
+            font-size: 45px
+    .custom-row-one-platform-cards
+        display: $display-flex
+        flex-wrap: $flex-wrap
+        margin-bottom: 40px
+        padding: 0px 20px
+        .col
+            display: $display-flex
+            flex-wrap: $flex-wrap
+            justify-content: $jc-center
+        .card
+            width: 28rem
+            padding: 35px
+            background:  rgba(16, 17, 19, 0.7)
+            box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 3px inset, rgba(255, 255, 255, 0) 0px -1px 3px inset
+            border-radius: $btn-border-radius-24
+            img
+                border-radius: $btn-border-radius
