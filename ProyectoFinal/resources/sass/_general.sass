@@ -26,6 +26,14 @@ body
         height: $img-navbar-height
 .nav-link 
     color: $dropdown-color
+.navbar-nav
+    --bs-nav-link-hover-color: rgb(255, 45, 96)
+.dropdown-menu
+    --bs-dropdown-bg: rgb(5, 5, 5)
+    --bs-dropdown-border-color: rgb(255, 255, 255)
+    --bs-dropdown-link-color: rgb(255, 255, 255)
+    --bs-dropdown-link-hover-color: rgb(144, 152, 162)
+    --bs-dropdown-link-hover-bg: none
 .navbar-end-container
     a
         color: $navbar-font-color
@@ -360,8 +368,42 @@ body
     .custom-dropdown-menu
         background: rgb(255, 0, 0)
 /* FIN Dropdown Menu */
-
-    
+/* Footer container */
+.custom-footer-container
+    padding: 1% 5%
+    h5
+        color: $text-color-white
+    a
+        color: $text-color-gray
+        text-decoration: none
+    .custom-footer-card
+        color: $text-color-white
+        background: $body-bg-color
+        img
+            border-radius: 8px
+            width: 80%
+            height: 50%
+    .accordion
+        --bs-accordion-btn-bg: $background-color
+        --bs-accordion-btn-color: $text-color-white
+        --bs-accordion-active-bg: $background-color
+        --bs-accordion-active-color: $text-color-white
+        /*--bs-accordion-btn-focus-border-color: $btn-border-focus-color
+        --bs-accordion-btn-focus-box-shadow: $btn-focus-box-shadow
+        /*--bs-accordion-btn-icon: $btn-icon
+        .accordion-item
+            background: $background-color
+            .accordion-header
+                color: $text-color-white
+/* FIN Footer container */
+/* Footer 2 container */
+.custom-footer-2-container
+    padding: 1% 5%
+    color: $text-color-white
+    a
+        color: $text-color-gray
+        text-decoration: none
+/* FIN Footer 2 container */
 
 
         
